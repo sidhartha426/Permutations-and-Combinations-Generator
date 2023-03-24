@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+}
+
+#resDiv p {
+  font-size: 1.2rem;
+}
+
+#resDiv,
+#inpDiv {
+  height: 95vh;
+  width: 50vw;
+  overflow: auto;
+}
+
+#inpDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+textarea {
+  resize: none;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#radioDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#btnDiv{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+  
+}
